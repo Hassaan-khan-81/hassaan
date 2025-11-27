@@ -6,6 +6,7 @@
     <title>Hassaan | AI & Automation Specialist</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
@@ -32,70 +33,108 @@
     </section>
 
     <section id="skills" class="skills-section hidden">
-        <h2 class="section-title">MY EXPERTISE</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>🤖 AI Agents</h3>
-                <p>Building autonomous agents that think and act.</p>
+        <h2 class="section-title">TECHNICAL ARSENAL</h2>
+        <div class="skills-container">
+            
+            <div class="skill-bar-box">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-robot"></i> AI Agents (LangChain/OpenAI)</span>
+                    <span>95%</span>
+                </div>
+                <div class="progress-line" data-percent="95%">
+                    <span style="width: 95%;"></span>
+                </div>
             </div>
-            <div class="skill-card">
-                <h3>⚙️ CRM Workflows</h3>
-                <p>Automating customer data flows for efficiency.</p>
+
+            <div class="skill-bar-box">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-bolt"></i> n8n Automation</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-line" data-percent="90%">
+                    <span style="width: 90%;"></span>
+                </div>
             </div>
-            <div class="skill-card">
-                <h3>🔗 n8n Specialist</h3>
-                <p>Self-hosted complex automation nodes.</p>
+
+            <div class="skill-bar-box">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-network-wired"></i> CRM Integration (HubSpot/Salesforce)</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-line" data-percent="85%">
+                    <span style="width: 85%;"></span>
+                </div>
             </div>
-            <div class="skill-card">
-                <h3>⚡ Make.com</h3>
-                <p>Rapid integration connecting 1000+ apps.</p>
+
+            <div class="skill-bar-box">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-code"></i> Python & JavaScript</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-line" data-percent="80%">
+                    <span style="width: 80%;"></span>
+                </div>
             </div>
+
         </div>
     </section>
 
     <section id="projects" class="projects-section hidden">
-        <h2 class="section-title">LATEST PROJECTS</h2>
+        <h2 class="section-title">DEPLOYED SYSTEMS</h2>
         <div class="projects-grid">
             
             <div class="project-card">
+                <img src="https://placehold.co/600x400/111/00f3ff?text=AI+Support+Bot" alt="Project Image">
                 <div class="project-info">
                     <h3>AI Customer Support Agent</h3>
-                    <p>An automated agent that handles 80% of customer queries without human intervention.</p>
-                    <a href="#" class="btn-small">View Case Study</a>
+                    <p>Automated agent handling 80% of queries using OpenAI API.</p>
+                    <a href="#" class="btn-small">View Logic</a>
                 </div>
             </div>
 
             <div class="project-card">
+                <img src="https://placehold.co/600x400/111/00f3ff?text=n8n+Lead+Gen" alt="Project Image">
                 <div class="project-info">
-                    <h3>n8n Lead Gen System</h3>
-                    <p>A complex workflow that scrapes data, enriches it, and pushes it to HubSpot.</p>
+                    <h3>n8n Lead Generation</h3>
+                    <p>Scrapes data, enriches emails, and syncs to HubSpot automatically.</p>
                     <a href="#" class="btn-small">View Workflow</a>
                 </div>
             </div>
 
             <div class="project-card">
+                <img src="https://placehold.co/600x400/111/00f3ff?text=CRM+Sync" alt="Project Image">
                 <div class="project-info">
-                    <h3>CRM Auto-Sync</h3>
-                    <p>Real-time two-way sync between Salesforce and Google Sheets.</p>
+                    <h3>Two-Way CRM Sync</h3>
+                    <p>Real-time bidirectional sync between Airtable and Salesforce.</p>
                     <a href="#" class="btn-small">View Project</a>
                 </div>
             </div>
-            </div>
+
+        </div>
     </section>
 
     <section id="contact" class="contact-section hidden">
-        <h2 class="section-title">GET IN TOUCH</h2>
-        <p>Ready to automate your business? Let's build something crazy.</p>
-        <a href="mailto:your-email@example.com" class="btn-primary big-btn">EMAIL ME</a>
+        <h2 class="section-title">INITIALIZE CONNECTION</h2>
+        <p>Ready to automate your workflow? Send the signal.</p>
         
-        <div class="social-links">
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <div class="contact-icons">
+            <a href="mailto:your-email@example.com" class="icon-box">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="icon-box">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="icon-box">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="icon-box">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Hassaan. Built with ❤️ and Automation.</p>
+        <p>&copy; 2024 Hassaan. Powered by Automation.</p>
     </footer>
 
     <script src="script.js"></script>
