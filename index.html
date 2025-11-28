@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hassaan | AI & Automation Specialist</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
     <nav class="navbar">
@@ -22,7 +26,10 @@
 
     <section id="hero" class="hero hidden">
         <div class="hero-content">
-            <h1 class="glitch-text">HI, I'M HASSAAN</h1>
+            <div class="profile-container hidden">
+                <img src="assets/Upwork.jpg" alt="Hassaan Profile" class="profile-pic">
+            </div>
+            <h1 class="glitch-text hidden-left">HI, I'M HASSAAN</h1>
             <h2 class="subtitle">AI & AUTOMATION SPECIALIST</h2>
             <p>I build intelligent AI Agents, optimize CRM workflows, and connect systems using n8n & Make.com.</p>
             <div class="cta-container">
@@ -35,8 +42,8 @@
     <section id="skills" class="skills-section hidden">
         <h2 class="section-title">TECHNICAL ARSENAL</h2>
         <div class="skills-container">
-            
-            <div class="skill-bar-box">
+
+            <div class="skill-bar-box hidden-left">
                 <div class="skill-info">
                     <span><i class="fa-solid fa-robot"></i> AI Agents (LangChain/OpenAI)</span>
                     <span>95%</span>
@@ -46,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="skill-bar-box">
+            <div class="skill-bar-box hidden-right">
                 <div class="skill-info">
                     <span><i class="fa-solid fa-bolt"></i> n8n Automation</span>
                     <span>90%</span>
@@ -56,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="skill-bar-box">
+            <div class="skill-bar-box hidden-left">
                 <div class="skill-info">
                     <span><i class="fa-solid fa-network-wired"></i> CRM Integration (HubSpot/Salesforce)</span>
                     <span>85%</span>
@@ -66,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="skill-bar-box">
+            <div class="skill-bar-box hidden-right">
                 <div class="skill-info">
                     <span><i class="fa-solid fa-code"></i> Python & JavaScript</span>
                     <span>80%</span>
@@ -81,10 +88,10 @@
 
     <section id="projects" class="projects-section hidden">
         <h2 class="section-title">DEPLOYED SYSTEMS</h2>
-        <div class="projects-grid">
-            
+        <div class="projects-grid hidden">
+
             <div class="project-card">
-                <img src="https://placehold.co/600x400/111/00f3ff?text=AI+Support+Bot" alt="Project Image">
+                <img src="assets/ai_support_bot.png" alt="AI Customer Support Agent">
                 <div class="project-info">
                     <h3>AI Customer Support Agent</h3>
                     <p>Automated agent handling 80% of queries using OpenAI API.</p>
@@ -93,7 +100,7 @@
             </div>
 
             <div class="project-card">
-                <img src="https://placehold.co/600x400/111/00f3ff?text=n8n+Lead+Gen" alt="Project Image">
+                <img src="assets/n8n_lead_gen.png" alt="n8n Lead Generation">
                 <div class="project-info">
                     <h3>n8n Lead Generation</h3>
                     <p>Scrapes data, enriches emails, and syncs to HubSpot automatically.</p>
@@ -102,11 +109,30 @@
             </div>
 
             <div class="project-card">
-                <img src="https://placehold.co/600x400/111/00f3ff?text=CRM+Sync" alt="Project Image">
+                <img src="assets/crm_sync.png" alt="Two-Way CRM Sync">
                 <div class="project-info">
                     <h3>Two-Way CRM Sync</h3>
                     <p>Real-time bidirectional sync between Airtable and Salesforce.</p>
                     <a href="#" class="btn-small">View Project</a>
+                </div>
+            </div>
+
+            <!-- NEW PROJECTS -->
+            <div class="project-card">
+                <img src="assets/voice_ai.png" alt="Voice AI Assistant">
+                <div class="project-info">
+                    <h3>Voice AI Assistant</h3>
+                    <p>Real-time voice processing for customer service calls.</p>
+                    <a href="#" class="btn-small">View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/data_scraper.png" alt="E-com Data Scraper">
+                <div class="project-info">
+                    <h3>E-com Data Scraper</h3>
+                    <p>Automated price monitoring and competitor analysis tool.</p>
+                    <a href="#" class="btn-small">View Code</a>
                 </div>
             </div>
 
@@ -116,7 +142,7 @@
     <section id="contact" class="contact-section hidden">
         <h2 class="section-title">INITIALIZE CONNECTION</h2>
         <p>Ready to automate your workflow? Send the signal.</p>
-        
+
         <div class="contact-icons">
             <a href="mailto:your-email@example.com" class="icon-box">
                 <i class="fa-solid fa-envelope"></i>
@@ -139,4 +165,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
