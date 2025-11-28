@@ -14,8 +14,8 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-// Select all elements that have the 'hidden' class
-const hiddenElements = document.querySelectorAll('.hidden');
+// Select all elements that have the 'hidden', 'hidden-left', or 'hidden-right' class
+const hiddenElements = document.querySelectorAll('.hidden, .hidden-left, .hidden-right');
 hiddenElements.forEach((el) => observer.observe(el));
 
 // Add a cool console message for developers
